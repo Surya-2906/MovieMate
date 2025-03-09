@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.app-container {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Input & Button */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #b20710;
+}
+
+/* Movie List */
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.movie-card {
+  background-color: #252525;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.movie-card img {
+  width: 60px;
+  height: 90px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  flex: 1;
+  text-align: left;
+}
+
+/* Watched Button */
+.watched {
+  background-color: #00b894;
+}
+
+.watched:hover {
+  background-color: #008f6a;
+}
+.movie-search-container {
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  opacity: 0.9;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.results-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
